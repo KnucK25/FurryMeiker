@@ -5,7 +5,7 @@ import path from 'path'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [plugin()],
-  base: '/FurryMaiker/',
+  base: '/FurryMeiker/',
   server: {
     port: 57347,
   },
