@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="furry.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+</Solution>
