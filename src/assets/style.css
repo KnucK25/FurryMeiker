@@ -9,7 +9,7 @@
 }
 
 body {
-  background: #efefef;
+  background: #ffffff;
   font-family: Arial, sans-serif;
 }
 
@@ -24,21 +24,29 @@ body {
 .header {
   height: 80px;
   padding: 20px 40px;
-  border-bottom: 1px solid #bdbdbd;
+  border-bottom: 1px solid #f8b3d6;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-image: url('/FurryMeiker/public/header.png');
+  background-size: cover;  
+  height: 70px;
+  width: 100%;
 }
 
 .logo {
-  width: 320px;
-  height: 50px;
-  border: 2px solid #555;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: bold;
-}
+  background-image: url('/FurryMeiker/public/logo.png'); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  width: 200px;
+  height: 100px; 
+  }
 
 .nav {
   display: flex;
@@ -53,37 +61,68 @@ body {
 /* FOOTER */
 
 .footer {
-  height: 70px;
-  border-top: 1px solid #bdbdbd;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url('/FurryMeiker/public/header.png');
+  background-size: cover;  
+  height: 70px;
+  width: 100%;
 }
 
 /* HOME */
 
 .home-page {
   min-height: calc(100vh - 150px);
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding: 40px;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  background-color: #f8f8f8; 
+  text-align: center;
 }
 
 .home-content {
-  width: 600px;
+  width: 800px;
   display: flex;
   flex-direction: column;
   gap: 20px;
   text-align: center;
 }
 
+h1 {
+  font-family: 'Arial Black', sans-serif; 
+  font-size: 3.5em; 
+  color: #a47bd9; 
+  font-weight: bold; 
+  margin-bottom: 20px; 
+}
+
+p {
+  font-family: 'Arial', sans-serif; 
+  font-size: 1.4em;
+  color: #89a2d7; 
+  font-weight: bold;
+  line-height: 1.6; 
+  margin-bottom: 40px; 
+}
+
 .start-btn {
-  padding: 14px 24px;
-  border: 1px solid black;
   text-decoration: none;
-  color: black;
-  align-self: center;
+  align-self: center; 
+  background-color: #ea8bb2;
+  color: #ffffff;
+  font-family: 'Arial Black', sans-serif;
+  font-size: 1.8em;
+  font-weight: bold;
+  padding: 15px 40px; 
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.start-btn:hover {
+  transform: translateY(-6px);
 }
 
 /* ====================== */
@@ -103,12 +142,13 @@ body {
 
 .colors-sidebar {
   width: 90px;
-  background: #cfcfcf;
+  background: #f8b3d6;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 16px;
   padding: 16px 0;
+  border-radius: 10px;
 }
 
 .color-button {
@@ -144,8 +184,10 @@ body {
   width: 100%;
   height: 100%;
   min-height: 760px;
-  background: #cfcfcf;
+  background: #ffffff;
   overflow: hidden;
+  border: 5px solid #ea8bb2; 
+  border-radius: 20px;
 }
 
 /* ====================== */
@@ -181,17 +223,18 @@ body {
 
 .category-column {
   width: 90px;
-  background: #cfcfcf;
+  background: #ea8bb2;
   display: flex;
   flex-direction: column;
   gap: 10px;
   padding: 10px;
+  border-radius: 10px;
 }
 
 .category-button {
   width: 100%;
-  height: 82px;
-  border: 1px solid #999;
+  height: 70px;
+  width: 70px;
   background: white;
   text-decoration: none;
   color: black;
@@ -199,6 +242,14 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 28px;
+  border-radius: 15px;
+}
+
+.category-button img {
+  max-width: 60%; 
+  max-height: 60%; 
+  display: block; 
+  object-fit: contain; 
 }
 
 /* ====================== */
@@ -207,8 +258,9 @@ body {
 
 .items-section {
   flex: 1;
-  background: #cfcfcf;
+  background: #f8b3d6;
   padding: 10px;
+  border-radius: 10px;
 }
 
 .items-grid {

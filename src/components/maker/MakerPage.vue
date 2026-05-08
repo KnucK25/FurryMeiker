@@ -52,24 +52,23 @@
       </div>
 
     </section>
-
-    <aside class="parts-sidebar">
+  <aside class="parts-sidebar">
 
       <div class="category-column">
 
         <RouterLink to="/maker/accessories"
-                    class="category-button">
-          🎀
+          class="category-button">
+          <img src="/buttons/clothes/button_01.png" alt="Аксессуары">
         </RouterLink>
 
         <RouterLink to="/maker/clothes"
-                    class="category-button">
-          👕
+          class="category-button">
+          <img src="/buttons/clothes/button_02.png" alt="Одежда">
         </RouterLink>
 
         <RouterLink to="/maker/socks"
-                    class="category-button">
-          🧦
+          class="category-button">
+          <img src="/buttons/clothes/button_00.png" alt="Носки">
         </RouterLink>
 
       </div>

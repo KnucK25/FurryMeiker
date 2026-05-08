@@ -8,7 +8,6 @@
     <!-- HEADER -->
     <header class="header">
       <router-link :to="{ name: 'Home' }" class="logo">
-        FurryMeiker!
       </router-link>
     </header>
 
@@ -17,7 +16,6 @@
 
     <!-- FOOTER -->
     <footer class="footer">
-      <p>Подвал сайта</p>
     </footer>
 
   </div>
