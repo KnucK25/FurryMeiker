@@ -13,14 +13,8 @@
     <header class="header">
 
       <!-- Логотип -->
-      <RouterLink :to="{ name: 'Home' }"
-                  class="logo-link">
-
-        <img src="/logo.png"
-             alt="Logo"
-             class="logo-image">
-
-      </RouterLink>
+      <router-link :to="{ name: 'Home' }" class="logo">
+      </router-link>
 
       <!-- Навигация -->
       <nav class="header-nav">
@@ -40,7 +34,6 @@
         </RouterLink>
 
       </nav>
-
     </header>
 
     <!-- ====================== -->
@@ -58,11 +51,9 @@
     <!-- ====================== -->
 
     <footer class="footer">
-
       <p>
         Подвал сайта
       </p>
-
     </footer>
 
   </div>

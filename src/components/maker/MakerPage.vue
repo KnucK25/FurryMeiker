@@ -137,6 +137,7 @@
 
     <aside class="parts-sidebar">
 
+
       <!-- ====================== -->
       <!-- Кнопки категорий       -->
       <!-- ====================== -->
@@ -147,7 +148,8 @@
         <RouterLink :to="{ name: 'BodyTypes' }"
                     class="category-button">
 
-          <img src="/buttons/bodytype.png"
+          <img src="/buttons/clothes/bodytype.png"
+               alt="Тип тела"
                class="category-icon">
 
         </RouterLink>
@@ -156,8 +158,8 @@
         <RouterLink :to="{ name: 'Accessories' }"
                     class="category-button">
 
-          <img src="/buttons/accessories.png"
-               alt="Accessories"
+          <img src="/buttons/clothes/accessories.png"
+               alt="Аксессуары"
                class="category-icon">
 
         </RouterLink>
@@ -166,8 +168,8 @@
         <RouterLink :to="{ name: 'Clothes' }"
                     class="category-button">
 
-          <img src="/buttons/clothes.png"
-               alt="Clothes"
+          <img src="/buttons/clothes/clothes.png"
+               alt="Одежда"
                class="category-icon">
 
         </RouterLink>
@@ -176,8 +178,8 @@
         <RouterLink :to="{ name: 'Socks' }"
                     class="category-button">
 
-          <img src="/buttons/socks.png"
-               alt="Socks"
+          <img src="/buttons/clothes/socks.png"
+               alt="Носки"
                class="category-icon">
 
         </RouterLink>
@@ -186,7 +188,8 @@
         <RouterLink :to="{ name: 'Favorites' }"
                     class="category-button">
 
-          <img src="/buttons/favorites.png"
+          <img src="/buttons/clothes/favorites.png"
+               alt="Избранное"
                class="category-icon">
 
         </RouterLink>
