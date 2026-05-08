@@ -3,22 +3,68 @@
 </script>
 
 <template>
+
   <div class="app">
 
-    <!-- HEADER -->
+    <!-- ====================== -->
+    <!-- Шапка сайта            -->
+    <!-- ====================== -->
+
     <header class="header">
-      <router-link :to="{ name: 'Home' }" class="logo">
-        FurryMeiker!
-      </router-link>
+
+      <!-- Логотип -->
+      <RouterLink :to="{ name: 'Home' }"
+                  class="logo-link">
+
+        <img src="/logo.png"
+             alt="Logo"
+             class="logo-image">
+
+      </RouterLink>
+
+      <!-- Навигация -->
+      <nav class="header-nav">
+
+        <!-- О нас -->
+        <RouterLink :to="{ name: 'About' }">
+
+          О нас
+
+        </RouterLink>
+
+        <!-- Контакты -->
+        <RouterLink :to="{ name: 'Contacts' }">
+
+          Контакты
+
+        </RouterLink>
+
+      </nav>
+
     </header>
 
-    <!-- PAGE -->
-    <RouterView />
+    <!-- ====================== -->
+    <!-- Основной контент       -->
+    <!-- ====================== -->
 
-    <!-- FOOTER -->
+    <main class="page-content">
+
+      <RouterView />
+
+    </main>
+
+    <!-- ====================== -->
+    <!-- Подвал сайта           -->
+    <!-- ====================== -->
+
     <footer class="footer">
-      <p>Подвал сайта</p>
+
+      <p>
+        Подвал сайта
+      </p>
+
     </footer>
 
   </div>
+
 </template>

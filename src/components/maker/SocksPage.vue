@@ -3,9 +3,7 @@
 
   import { useCharacter } from '@/composables/useCharacter'
 
-  const {
-    setSocks,
-  } = useCharacter()
+  const { setSocks } = useCharacter()
 </script>
 
 <template>
