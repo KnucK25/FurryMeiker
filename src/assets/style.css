@@ -98,6 +98,13 @@ h1 {
   margin-bottom: 20px;
 }
 
+h4 {
+  font-family: 'Arial Black', sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
 p {
   font-family: 'Arial', sans-serif;
   font-size: 1.4em;
@@ -319,8 +326,9 @@ p {
 .maker-toolbar {
   height: 70px;
   margin-bottom: 12px;
-  background: #cfcfcf;
+  background: #f8b3d6;
   display: flex;
+  border-radius: 15px;
   align-items: center;
   gap: 12px;
   padding: 0 16px;
@@ -329,8 +337,9 @@ p {
 .toolbar-button {
   width: 48px;
   height: 48px;
-  border: 1px solid #999;
+  border: 1px solid #ffffff;
   background: white;
+  border-radius: 15px;
   cursor: pointer;
   font-size: 20px;
 }
@@ -343,7 +352,7 @@ p {
   width: 58px;
   height: 58px;
   border-radius: 50%;
-  border: 2px solid #999;
+  border: 2px solid #ffffff;
   overflow: hidden;
   cursor: pointer;
   padding: 0;
@@ -394,7 +403,7 @@ p {
   position: relative;
   height: 90px;
   background: white;
-  border: 1px solid #999;
+  border-radius: 20px;
   overflow: hidden;
 }
 
@@ -442,8 +451,9 @@ p {
   right: 8px;
   width: 24px;
   height: 24px;
-  border: 1px solid #999;
-  background: white;
+  border: 1px solid #c7c7c7;
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
   cursor: pointer;
 }
 
@@ -474,7 +484,7 @@ p {
 .info-content {
   width: 100%;
   max-width: 900px;
-  background: #cfcfcf;
+  background: #ffffff;
   padding: 40px;
   display: flex;
   flex-direction: column;
@@ -502,5 +512,9 @@ p {
 
   .header-nav a {
     text-decoration: none;
-    color: black;
+    color: rgb(245, 245, 245);
+    font-family: 'Arial Black', sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 20px;
   }
